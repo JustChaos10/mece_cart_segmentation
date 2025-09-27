@@ -1,0 +1,5 @@
+segment,rules,status,was_merged,was_split,merged_into,original_size,size,size_normalized,conversion_potential,profitability,strategic_fit,overall_score,conversion_potential_norm,profitability_norm,strategic_fit_norm,split_origin
+High AOV Abandoners,avg_order_value >= 4100.00,ok,FALSE,FALSE,,2,2,0.25,0.04395933,0.8,0.873287671,0.819739939,0.89913313,1,1,
+Recent Buyers Abandoners,recency_last_order_days <= 30,ok,FALSE,FALSE,,3,3,0.375,0.048560606,0.633333333,0.796575342,0.759878557,1,0.722222222,0.817292007,
+Other,Catch-all for remaining users,ok,FALSE,FALSE,,1,1,0.125,0.0171875,0.4,0.657534247,0.323543113,0.312254458,0.333333333,0.486133768,
+Low Value Price Sensitive,avg_order_value < 960.00 AND profitability_score < 0.34,ok,FALSE,FALSE,,2,2,0.25,0.00294329,0.2,0.453424658,0.05,0,0,0,
