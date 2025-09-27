@@ -37,7 +37,6 @@ venv\Scripts\activate
 ```bash
 python mece_cart_segmentation.py --input sample_cart_abandoners.csv --output segments_output.csv
 ```
-> Replace file names/paths with yours. Add any extra CLI flags here once finalized.
 
 ## 🧩 Example Output (illustrative)
 | Segment | Size | Score | Notes |
@@ -46,17 +45,3 @@ python mece_cart_segmentation.py --input sample_cart_abandoners.csv --output seg
 | Medium Interest | 250 | 0.60 | Moderate engagement |
 | Low Engagement | 500 | 0.20 | Least likely to convert |
 
-## 🤝 Contributing
-1. Fork the repo  
-2. Create a feature branch: `git checkout -b feature/new-rule`  
-3. Commit changes: `git commit -m "Add new segmentation rule"`  
-4. Push: `git push origin feature/new-rule`  
-5. Open a Pull Request
-
-Please follow the existing style and update docs/examples when relevant.
-
-## 📄 License
-MIT (or change to your preferred license).
-
-## 🗂️ Topics
-`mece` `segmentation` `cart-abandonment` `marketing-analytics` `python`
